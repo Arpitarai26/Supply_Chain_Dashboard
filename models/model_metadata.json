@@ -1,0 +1,11 @@
+{
+    "model_name": "Revenue Predictor",
+    "version": "1.0",
+    "algorithm": "LinearRegression",
+    "trained_on": "2025-11-11 08:58:39.432920",
+    "features": [
+        "OrderCount",
+        "NumberOfPieces"
+    ],
+    "target": "TotalRevenue"
+}

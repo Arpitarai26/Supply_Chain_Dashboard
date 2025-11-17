@@ -1,0 +1,87 @@
+/* =====================================================
+   Business Performance Dashboard - Refined Dark Theme
+   ===================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+}
+
+/* ---- Headers ---- */
+h1, h2, h3 {
+    color: #ffffff;
+    font-weight: 600;
+}
+h1 {
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ---- Dropdown ---- */
+.Select-control, .Select-menu-outer {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #333 !important;
+}
+.Select-placeholder, .Select-value-label {
+    color: #aaa !important;
+}
+.Select--multi .Select-value {
+    background-color: #2196f3 !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+/* ---- KPI Cards ---- */
+#kpi-cards > div {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: linear-gradient(145deg, #1b1b1b, #252525);
+    border: 1px solid #2a2a2a;
+    text-align: center;
+    color: #e0e0e0;
+}
+#kpi-cards > div:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 10px rgba(0, 188, 212, 0.3);
+}
+#kpi-cards h3 {
+    font-size: 1rem;
+    color: #b0b0b0;
+}
+#kpi-cards h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* ---- Graph Containers ---- */
+.js-plotly-plot {
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #181818 !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #121212;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+/* ---- Footer ---- */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-top: 40px;
+}
